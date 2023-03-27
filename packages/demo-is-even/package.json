@@ -19,8 +19,8 @@
     "url": "git+https://github.com/rioredwards/learning-lerna.git"
   },
   "scripts": {
-    "build": "npx lerna run build --scope=demo-is-odd && tsc",
-    "test": "npx lerna run build --scope=demo-is-odd && npx lerna run build --scope=demo-is-even && jest"
+    "build": "tsc",
+    "test": "jest"
   },
   "dependencies": {
     "demo-is-odd": "*"
