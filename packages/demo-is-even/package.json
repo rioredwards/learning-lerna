@@ -6,7 +6,7 @@
   "homepage": "https://github.com/rioredwards/learning-lerna#readme",
   "license": "ISC",
   "main": "dist/demo-is-even.js",
-  "types": "dist/demo-is-even.ts",
+  "types": "dist/demo-is-even.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,9 +21,6 @@
   "scripts": {
     "build": "tsc",
     "test": "jest"
-  },
-  "dependencies": {
-    "demo-is-odd": "*"
   },
   "bugs": {
     "url": "https://github.com/rioredwards/learning-lerna/issues"

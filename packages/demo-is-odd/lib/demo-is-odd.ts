@@ -1,3 +1,5 @@
+import { isEven } from "demo-is-even";
+
 export function isOdd(n: number): boolean {
-  return n % 2 === 1;
+  return !isEven(n);
 }
